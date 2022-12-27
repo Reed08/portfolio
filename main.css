@@ -14,7 +14,7 @@ body {
 
 /* Style header */
 header {
-  background-color: #eee;
+  background-color: #0077c9; /* This is a shade of blue */
   padding: 20px;
 }
 
@@ -22,6 +22,7 @@ header h1 {
   margin: 0;
   font-size: 2em;
   text-align: center;
+  color: #fff; /* White text for good contrast on blue background */
 }
 
 header nav {
@@ -40,16 +41,12 @@ header nav ul li {
 
 header nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #fff; /* White text for good contrast on blue background */
   font-weight: 600;
 }
 
-header nav ul li select {
-  /* Style the drop-down menu */
-  background-color: transparent;
-  border: none;
-  font-size: 0.9em;
-  color: #333;
+header nav ul li a:hover {
+  color: #ddd; /* Light grey text on hover */
 }
 
 /* Style main content area */
@@ -79,77 +76,13 @@ main p {
 
 /* Style footer */
 footer {
-  background-color: #eee;
+  background-color: #0077c9; /* This is a shade of blue */
   padding: 20px;
   text-align: center;
-  color: #333;
+  color: #fff; /* White text for good contrast on blue background */
 }
 
 footer p {
   margin: 0;
   font-size: 0.8em;
-}
-
-/* Color scheme styles */
-/* Blue color scheme */
-.color-scheme-blue header,
-.color-scheme-blue footer {
-  background-color: #0077c9;
-}
-
-.color-scheme-blue header h1,
-.color-scheme-blue header nav ul li a,
-.color-scheme-blue footer p {
-  color: #fff;
-}
-
-.color-scheme-blue header nav ul li a:hover {
-  color: #ddd;
-}
-
-.color-scheme-blue main h2,
-.color-scheme-blue main h3 {
-  color: #0077c9;
-}
-
-/* Green color scheme */
-.color-scheme-green header,
-.color-scheme-green footer {
-  background-color: #00b359;
-}
-
-.color-scheme-green header h1,
-.color-scheme-green header nav ul li a,
-.color-scheme-green footer p {
-  color: #fff;
-}
-
-.color-scheme-green header nav ul li a:hover {
-  color: #ddd;
-}
-
-.color-scheme-green main h2,
-.color-scheme-green main h3 {
-  color: #00b359;
-}
-
-/* Red color scheme */
-.color-scheme-red header,
-.color-scheme-red footer {
-  background-color: #e60000;
-}
-
-.color-scheme-red header h1,
-.color-scheme-red header nav ul li a,
-.color-scheme-red footer p {
-  color: #fff;
-}
-
-.color-scheme-red header nav ul li a:hover {
-  color: #ddd;
-}
-
-.color-scheme-red main h2,
-.color-scheme-red main h3 {
-  color: #e60000;
 }
